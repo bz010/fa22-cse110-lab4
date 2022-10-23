@@ -163,6 +163,8 @@ Answer within part2-question18.js
 
 ### Question 19
 The function will output:
+<br>
+
 1 <br>
 4 <br>
 3 <br>
