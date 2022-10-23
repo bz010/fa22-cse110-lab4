@@ -12,7 +12,7 @@ on line 4
 
 ### Question 3
 
-778kB
+777713 Bytes
 
 ### Question 4
 
