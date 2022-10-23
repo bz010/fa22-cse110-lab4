@@ -78,3 +78,15 @@ Output:
 The function returned the right length as the number of push was called, but the variable within the functon is returned as false. This is because js will keep processing even if there is an error to prevent variable losses. Therefore, the function will still return. Since discountedPrice is a constant that was reassigned multiple time in the for loop. There should be an error. So the function returned an array of f as false variables.
 
 
+#Question 12:
+- A:
+    student.name;
+- B
+    student['Grad Year'];
+- C
+    student.greeting();
+- D
+    student['Favorite Teacher'].name;
+- E
+    student.courseLoad[0];
+
