@@ -9,5 +9,5 @@
 ### Explore
 - Flow chart have transparent background, it will appear normal if downloaded.
 
-## Expand
+### Expand
 - Didn't complete
