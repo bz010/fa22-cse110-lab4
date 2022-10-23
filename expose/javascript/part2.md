@@ -90,3 +90,22 @@ The function returned the right length as the number of push was called, but the
 - E
     student.courseLoad[0];
 
+#Question 13:
+- A:
+    32  Because 3 is string and 2 is integer which map to string and plus sign makes both combine to make new string.
+- B:
+    1   Because minus sign is operator for math so string 3 convert to integer and 2 is integer which makes it 3 - 2 = 1.
+- C:
+    3   Because null convert to 0 in numeric. So  3 + 0 = 3
+- D:
+    3null   Because 3 is a string in this case and null is convert to string. Both string combined togeter as 3null.
+- E:
+    4   Because true is convert to numeric 1, so 1 + 3  = 4.
+- F:
+    0   Because false is mapped to numeric 0 and null is also numeric 0. So both conversion is 0 makes it 0 + 0.
+- G:
+    3undefined  Because 3 is a string, and undefined will be convert to string as 3 is a string. Both string combined by plus sign, making it 3undefined.
+- H:
+    NaN     Because minus sign makes this math equation, 3 is convert to an integer and undefined convert to NaN. Since undefuned cannot be convert to a integer, the output becomes NaN.
+
+#Question 14:
