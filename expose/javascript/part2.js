@@ -1,10 +1,10 @@
-// Change between var, let, and constant for different questions
+// Change between var, let, and const for different questions
 function discountPrices(prices, discount){
-    var discounted = [];
-    var finalPrice = 0;
+    const discounted = [];
+    const finalPrice = 0;
 
-    for(var i = 0; i < prices.length; i++){
-        var discountedPrice = prices[i] * (1 - discount);
+    for(let i = 0; i < prices.length; i++){
+        const discountedPrice = prices[i] * (1 - discount);
         finalPrice = Math.round(discountedPrice * 100) / 100;
         discounted.push(finalPrice);
     }
@@ -17,4 +17,4 @@ function discountPrices(prices, discount){
     return discounted;
 }
 
-discountPrices([100, 200, 300], 0.5);
+console.log(discountPrices([100, 200, 300], 0.5));
