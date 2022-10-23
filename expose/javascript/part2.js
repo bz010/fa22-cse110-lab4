@@ -1,16 +1,19 @@
 // Change between var, let, and const for different questions
 function discountPrices(prices, discount){
     const discounted = [];
-    const finalPrice = 0;
+    //let finalPrice = 0;
+    const length  = prices.length;
 
-    for(let i = 0; i < prices.length; i++){
+    for(let i = 0; i < length; i++){
         const discountedPrice = prices[i] * (1 - discount);
-        finalPrice = Math.round(discountedPrice * 100) / 100;
-        discounted.push(finalPrice);
+        //finalPrice = Math.round(discountedPrice * 100) / 100; // Q1-8
+        //discounted.push(finalPrice); //Q1-8
+        discounted.push(discountPrices); //Q9-11
     }
 
-    // Change between three logs depends on the question
+    // Change between different logs depends on the question
     //console.log(i);
+    //console.log(length)
     //console.log(discountedPrice)
     //console.log(finalPrice);
 
