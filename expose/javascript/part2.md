@@ -80,47 +80,61 @@ The function returned the right length as the number of push was called, but the
 
 ### Question 12:
 - A:
-    student.name;
+    - student.name;
 - B
-    student['Grad Year'];
+    - student['Grad Year'];
 - C
-    student.greeting();
+    - student.greeting();
 - D
-    student['Favorite Teacher'].name;
+    - student['Favorite Teacher'].name;
 - E
-    student.courseLoad[0];
+    - student.courseLoad[0];
 
 ### Question 13:
 - A:
-    32  Because '3' is string and 2 is integer which map to string and plus sign makes both combine to make new string. Determined by first variable.
+    - 32  
+    - Because '3' is string and 2 is integer which map to string and plus sign makes both combine to make new string. Determined by first variable.
 - B:
-    1   Because minus sign is operator for math so string '3' convert to integer and 2 is integer which makes it 3 - 2 = 1.
+    - 1   
+    - Because minus sign is operator for math so string '3' convert to integer and 2 is integer which makes it 3 - 2 = 1.
 - C:
-    3   Because null convert to 0 in numeric. So  3 + 0 = 3
+    - 3   
+    - Because null convert to 0 in numeric. So  3 + 0 = 3
 - D:
-    3null   Because '3' is a string in this case and null is convert to string. Both string combined togeter as 3null.
+    - 3null   
+    - Because '3' is a string in this case and null is convert to string. Both string combined togeter as 3null.
 - E:
-    4   Because true is convert to numeric 1, so 1 + 3  = 4.
+    - 4   
+    - Because true is convert to numeric 1, so 1 + 3  = 4.
 - F:
-    0   Because false is mapped to numeric 0 and null is also numeric 0. So both conversion is 0 makes it 0 + 0.
+    - 0   
+    - Because false is mapped to numeric 0 and null is also numeric 0. So both conversion is 0 makes it 0 + 0.
 - G:
-    3undefined  Because '3' is a string, and undefined will be convert to string. Both string combined by plus sign, making it 3undefined.
+    - 3undefined  
+    - Because '3' is a string, and undefined will be convert to string. Both string combined by plus sign, making it 3undefined.
 - H:
-    NaN     Because minus sign makes this math equation, 3 is convert to an integer and undefined convert to NaN. Since undefuned cannot be convert to a integer, the output becomes NaN.
+    - NaN     
+    - Because minus sign makes this math equation, 3 is convert to an integer and undefined convert to NaN. Since undefuned cannot be convert to a integer, the output becomes NaN.
 
 ### Question 14:
 - A:
-    true    Because string 2 convert to int 2 and 2 is bigger than 1
+    - true    
+    - Because string 2 convert to int 2 and 2 is bigger than 1
 - B:
-    false   Because first character of string '2' convert to 2, which is geater than the first character in string '12', which is 1. 2 > 1.
+    - false   
+    - Because first character of string '2' convert to 2, which is geater than the first character in string '12', which is 1. 2 > 1.
 - C:
-    true    Because string '2' will be convert to numeric 2, and int 2 is same as numeric 2.
+    - true    
+    - Because string '2' will be convert to numeric 2, and int 2 is same as numeric 2.
 - D:
-    false   Because strict equality must have same type on both side. So different types of variable(int and string) from both side lead to false.
+    - false   
+    - Because strict equality must have same type on both side. So different types of variable(int and string) from both side lead to false.
 - E:
-    false   Because the numeric conversion of true is 1, and integer 2 will still be 2 after convert to number. int 1 is not equal to 2, so it return false
+    - false   
+    - Because the numeric conversion of true is 1, and integer 2 will still be 2 after convert to number. int 1 is not equal to 2, so it return false
 - F:
-    true    Because boolean() function will turn all symbols into true , so boolean(2) will be equal to boolean true, which have the same type and same boolean on both side of the strict equality operator.
+    - true    
+    - Because boolean() function will turn all symbols into true , so boolean(2) will be equal to boolean true, which have the same type and same boolean on both side of the strict equality operator.
 
 ### Question 15
 
@@ -149,12 +163,13 @@ Answer within part2-question18.js
 
 ### Question 19
 The function will output:
-1
-4
-3
-2
+<br>
+
+1 <br>
+4 <br>
+3 <br>
+2 <br>
 
 In the aboce order, because when the function was called, it will first call on log(1), then it set timeout of 1 second on log(2), then set a timeout of 0 on log(3). Since both log(2) and log(3) have timeout, the program will process log(4) the next without the timeout.
 The program then process the one that have the least value in timeout, so program process log(3). After 1 second, the program process log(2) as timeout finishes.
 
- 
