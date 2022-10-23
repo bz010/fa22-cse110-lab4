@@ -157,3 +157,4 @@ The function will output:
 In the aboce order, because when the function was called, it will first call on log(1), then it set timeout of 1 second on log(2), then set a timeout of 0 on log(3). Since both log(2) and log(3) have timeout, the program will process log(4) the next without the timeout.
 The program then process the one that have the least value in timeout, so program process log(3). After 1 second, the program process log(2) as timeout finishes.
 
+ 
